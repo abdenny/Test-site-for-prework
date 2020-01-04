@@ -1,0 +1,93 @@
+html {
+	background: url(bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Head {
+	text-align: center;
+	font-size: 50px;
+	font-family: "Cinzel", serif;
+	font-weight: normal;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+p {
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	color: darkslategray;
+}
+
+.Theirdog {
+	align-items: center;
+	font-size: 25px;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	color: rgb(88, 141, 155);
+}
+.Top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.Bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.doggo {
+	width: 700px;
+	height: 450px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.doggo2 {
+	width: 800px;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.stack {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: stretch;
+	box-sizing: border-box;
+}
+
+.Sec1 {
+	flex-basis: 25%;
+}
+
+.Sec2 {
+	flex-basis: 50%;
+}
+
+.Sec3 {
+	flex-basis: 25%;
+}
+
+.Sec4 {
+	flex-basis: 25%;
+}
+
+.Sec5 {
+	flex-basis: 75%;
+	text-align: center;
+}
+
+.brd {
+	border: 1px solid rgb(255, 255, 255);
+	padding: 5px;
+}
